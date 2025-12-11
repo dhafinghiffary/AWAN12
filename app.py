@@ -4,7 +4,5 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Hello dari aplikasi sederhana PaaS di Render!"
+    return "Hello from Flask on Vercel!"
 
-if __name__ == "__main__":
-    app.run()
